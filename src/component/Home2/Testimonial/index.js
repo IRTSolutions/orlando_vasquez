@@ -18,6 +18,24 @@ class Testimonial extends Component {
                     <Grid lg={4} item md={4} sm={6} xs={12} className="">
                         <Grid className="single-testimonial">
                             <i className="fas fa-quote-left"></i>
+                            <p>
+                                Orlando and his team are excellent craftsman who take pride in their work.
+                                 ORV Remodeling did my master bathroom and not a single detail was over looked. 
+                            </p>
+                            <Grid className="client-details d-flex align-items-center">
+                                <Grid className="client-img">
+                                    <img src={ClientImage} alt=""/>
+                                </Grid>
+                                <Grid className="client-info">
+                                    <h4>Irving Rivera</h4>
+                                    <span>Carrollton, TX</span>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid lg={4} item md={4} sm={6} xs={12} className="">
+                        <Grid className="single-testimonial">
+                            <i className="fas fa-quote-left"></i>
                             <p>Of course, the theme is amazing! But what really impressed me was the excellent
                                 customer support. This is a class act all the way. Thank you!</p>
                             <Grid className="client-details d-flex align-items-center">
@@ -25,7 +43,7 @@ class Testimonial extends Component {
                                     <img src={ClientImage} alt=""/>
                                 </Grid>
                                 <Grid className="client-info">
-                                    <h4>Kiwhi Leonard</h4>
+                                    <h4>Client Testimonial Name</h4>
                                     <span>Themeforest Author</span>
                                 </Grid>
                             </Grid>
@@ -41,23 +59,7 @@ class Testimonial extends Component {
                                     <img src={ClientImage} alt=""/>
                                 </Grid>
                                 <Grid className="client-info">
-                                    <h4>Salman Ahmed</h4>
-                                    <span>Themeforest Author</span>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                    <Grid lg={4} item md={4} sm={6} xs={12} className="">
-                        <Grid className="single-testimonial">
-                            <i className="fas fa-quote-left"></i>
-                            <p>Of course, the theme is amazing! But what really impressed me was the excellent
-                                customer support. This is a class act all the way. Thank you!</p>
-                            <Grid className="client-details d-flex align-items-center">
-                                <Grid className="client-img">
-                                    <img src={ClientImage} alt=""/>
-                                </Grid>
-                                <Grid className="client-info">
-                                    <h4>Mugli Leonard</h4>
+                                    <h4>Client Testimonial Name</h4>
                                     <span>UI/UX Designer</span>
                                 </Grid>
                             </Grid>

@@ -20,12 +20,12 @@ class ServiceDetailsPage extends Component {
                                     <ul>
                                         <li><a href="javascript:">Painting <i className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Remodeling <i className="fal fa-angle-right"></i></a>
+                                        <li><a href="javascript:">Framing <i className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Refurbishment <i
+                                        <li><a href="javascript:">Plumbing <i
                                             className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Hardwood flooring <i
+                                        <li><a href="javascript:">Flooring<i
                                             className="fal fa-angle-right"></i></a>
                                         </li>
                                     </ul>

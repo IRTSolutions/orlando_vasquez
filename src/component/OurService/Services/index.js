@@ -1,58 +1,58 @@
 import React, {Component} from "react";
 import OurService1 from "../../../images/wedo/w1.png";
 import OurService2 from "../../../images/wedo/w2.png";
-import OurService3 from "../../../images/wedo/w3.png";
+import OurService3 from "../../../images/wedo/drain_plumbing.jpg";
 import OurService4 from "../../../images/wedo/w4.png";
 import Grid from "@material-ui/core/Grid";
 
 const ServiceItem = [
     {
         id: 1,
-        title: 'Residential Design',
+        title: 'Painting',
         image: OurService1,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Painting walls, trim, doors.'
     },
     {
         id: 2,
-        title: 'Residential Design',
+        title: 'Tile and Flooring',
         image: OurService2,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Flooring and decorative tile installation'
     },
     {
         id: 3,
-        title: 'Residential Design',
+        title: 'Plumbing',
         image: OurService3,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Full plumbing services, relocate waterlines and drains. Install faucets and appliances'
     },
     {
         id: 4,
-        title: 'Residential Design',
+        title: 'Electrical',
         image: OurService4,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Run electrical wiring, installation and relocation of lighting and switches'
     },
     {
         id: 5,
-        title: 'Residential Design',
+        title: 'Framing',
         image: OurService1,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
     {
         id: 6,
-        title: 'Residential Design',
+        title: 'Drywall',
         image: OurService2,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Repair, Installation and Texture.'
     },
     {
         id: 7,
         title: 'Residential Design',
         image: OurService1,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
     {
         id: 8,
         title: 'Residential Design',
         image: OurService4,
-        discription: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
 
 ];
@@ -76,7 +76,7 @@ class Services extends Component {
                                 <Grid className="single-we-do">
                                     <img src={service.image} alt=""/>
                                     <h3>{service.title}</h3>
-                                    <p>{service.discription}</p>
+                                    <p>{service.description}</p>
                                 </Grid>
                             </Grid>
                         )

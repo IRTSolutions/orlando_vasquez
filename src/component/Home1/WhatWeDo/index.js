@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import Grid from '@material-ui/core/Grid';
-import Wedo1 from '../../../images/wedo/w1.png';
+import Wedo1 from '../../../images/wedo/bathroom.jpg';
 import Wedo2 from '../../../images/wedo/w2.png';
-import Wedo3 from '../../../images/wedo/w3.png';
+import Wedo3 from '../../../images/wedo/drain_plumbing.jpg';
 import Wedo4 from '../../../images/wedo/w4.png';
 import {Link} from "react-router-dom";
 import OurServicePage from "../../OurService/OurServicePage";
@@ -18,14 +18,14 @@ class WhatWeDo extends Component {
                     <Grid item lg={10} xs={12} className="offset-lg-1 col-12 text-center">
                         <Grid className="what-we-do-title">
                             <span>what we do</span>
-                            <h2>We build strong brands and grow businesses through branded services, <span>digital storytelling.</span>
+                            <h2>From kitchens and bathrooms, to plumbing and tile, or electrical and paint <span>We do it all!</span>
                             </h2>
                         </Grid>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo1} alt=""/>
-                            <h3>Residential Design</h3>
+                            <h3>Bathroom</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
                         </Grid>
@@ -33,7 +33,7 @@ class WhatWeDo extends Component {
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo2} alt=""/>
-                            <h3>Intorior Design</h3>
+                            <h3>Kitchen</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
                         </Grid>
@@ -41,7 +41,7 @@ class WhatWeDo extends Component {
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo3} alt=""/>
-                            <h3>Halls Design</h3>
+                            <h3>Plumbing</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
                         </Grid>
@@ -49,7 +49,7 @@ class WhatWeDo extends Component {
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo4} alt=""/>
-                            <h3>Complex Design</h3>
+                            <h3>Electrical</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
                         </Grid>

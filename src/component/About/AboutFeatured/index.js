@@ -12,19 +12,17 @@ class AboutFeatured extends Component {
                             <h2>Why Choose Us</h2>
                             <ul>
                                 <li>
-                                    <h3>Commitment</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h3>Quality</h3>
+                                    <p>We are commited to delivering the highest quality work
+                                        our craftsmanship is unmatched.</p>
                                 </li>
                                 <li>
-                                    <h3>Dependable and honesty</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h3>Dependable and honest</h3>
+                                    <p>We are family owned and proud of our work and you will be too.</p>
                                 </li>
                                 <li>
-                                    <h3>Alwasy improving</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h3>Reliablity</h3>
+                                    <p>Always on time and reliable.</p>
                                 </li>
                             </ul>
                             <a href="javascript:" className="theme_btn">LEARN MORE</a>

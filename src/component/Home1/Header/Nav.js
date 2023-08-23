@@ -144,10 +144,10 @@ class Nav extends Component {
                             </li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/services" aaaaa="dfsfsdfsd">Services</Link></li>
-                            <li><Link to="/portfolio">All Project</Link></li>
-                            <li><Link to="/blog">News</Link></li>
+                            {/* <li><Link to="/portfolio">All Project</Link></li> */}
+                            {/* <li><Link to="/blog">News</Link></li> */}
                             <li><Link to="/contact">Contact</Link></li>
-                            <li><a href="javascript:">Pages</a>
+                            {/* <li><a href="javascript:">Pages</a>
                                 <ul className="submenu">
                                     <li><Link to="/shop">Shop</Link></li>
                                     <li><Link to="/singlepost">Single Blog</Link></li>
@@ -155,7 +155,7 @@ class Nav extends Component {
                                     <li><Link to="/singleproduct">Single Product</Link></li>
                                     <li><Link to="/singleportfolio">Single Portfolio</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 </Hidden>

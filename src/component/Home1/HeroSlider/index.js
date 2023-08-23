@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderImage1 from '../../../images/slide/s1.jpg';
+import SliderImage1 from '../../../images/slide/tile.jpg';
 import SliderManImage1 from '../../../images/man.png';
 
 class HeroSlider extends Component {
@@ -25,9 +25,8 @@ class HeroSlider extends Component {
                             <Grid container spacing={3} className="sLider-grid-item customGridwidth websitePadding">
                                 <Grid item lg={12} xs={12} md={12} className="customGridwidth">
                                     <span>sit amet</span>
-                                    <h1>Lorem ipsum</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                                        dicta<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
+                                    <h1>ORV Remodeling</h1>
+                                    <p>From a full bath remodel to a leaky faucet no job is too small.<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
                                     <a href="javascript:" className="theme_btn get_start">Get details</a>
                                 </Grid>
                             </Grid>
@@ -44,7 +43,7 @@ class HeroSlider extends Component {
                             <Grid container spacing={3} className="sLider-grid-item websitePadding">
                                 <Grid item lg={12} className="text-center">
                                     <span>WE MAKE</span>
-                                    <h1>Dream House</h1>
+                                    <h1>Dream Kitchens</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
                                         dicta<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
                                     <a href="javascript:" className="theme_btn get_start">Get details</a>

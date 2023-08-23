@@ -60,7 +60,7 @@ class FAQ extends Component {
                     <Grid item md={6} sm={12}>
                         <Grid className="theme-heading">
                             <span>Some FAQ’s</span>
-                            <h2>Fequality Ask Question</h2>
+                            <h2>Frequently Asked Questions</h2>
                         </Grid>
                         <Grid className="frequent-ask-accrodian">
                             <List
