@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
 import Grid from '@material-ui/core/Grid';
-import HeaderLogo from '../../../images/logo.png';
+import HeaderLogo from '../../../images/logo-transparent_left2-png.png';
 import Nav from "./Nav";
 import CountUp from "react-countup";
 

@@ -43,7 +43,7 @@ class HeroSlider extends Component {
                             <Grid container spacing={3} className="sLider-grid-item websitePadding">
                                 <Grid item lg={12} className="text-center">
                                     <span>WE MAKE</span>
-                                    <h1>Dream Kitchens</h1>
+                                    <h1>Beautiful Kitchens</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
                                         dicta<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
                                     <a href="javascript:" className="theme_btn get_start">Get details</a>
@@ -62,7 +62,7 @@ class HeroSlider extends Component {
                                 </Grid>
                                 <Grid item lg={12} className="text-right">
                                     <span>WE MAKE</span>
-                                    <h1>Dream House</h1>
+                                    <h1>Custom Showers</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta <br/>sapiente,
                                         quo in minus nostrum praesentium quidem.</p>
                                     <a href="javascript:" className="theme_btn get_start">Get details</a>

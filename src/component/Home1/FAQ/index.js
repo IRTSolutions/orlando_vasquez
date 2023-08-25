@@ -17,7 +17,7 @@ import StarBorder from '@material-ui/icons/StarBorder';
 
 
 import Grid from '@material-ui/core/Grid';
-import WhatDoLeftImage from '../../../images/fq-ask.jpg';
+import WhatDoLeftImage from '../../../images/orlandoToilet.jpg';
 
 
 class FAQ extends Component {

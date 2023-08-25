@@ -1254,7 +1254,7 @@ h2 {
 }
 
 .menu-two#sticky-nav {
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 0px;
 }
 
@@ -1263,7 +1263,7 @@ h2 {
     padding-top: 25px;
     box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
     transition: al 0.60s ease-in-out;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .header-menu-two#sticky-nav {

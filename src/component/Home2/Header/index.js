@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Grid from "@material-ui/core/Grid";
 import {Link} from 'react-router-dom'
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logo-transparent_left2-png.png';
 import Nav from "../../Home1/Header/Nav";
 import Hidden from "@material-ui/core/Hidden";
 import Collapse from "@material-ui/core/Collapse";
