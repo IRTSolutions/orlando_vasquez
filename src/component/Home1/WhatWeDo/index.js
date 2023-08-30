@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Grid from '@material-ui/core/Grid';
 import Wedo1 from '../../../images/wedo/bathroom.jpg';
-import Wedo2 from '../../../images/wedo/w2.png';
+import Wedo2 from '../../../images/wedo/kitchen2_square.jpg';
 import Wedo3 from '../../../images/wedo/drain_plumbing.jpg';
 import Wedo4 from '../../../images/wedo/w4.png';
 import {Link} from "react-router-dom";

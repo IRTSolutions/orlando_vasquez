@@ -73,9 +73,8 @@ class OurService extends Component {
                                     <img src={IconCarry} alt=""/>
                                 </Grid>
                             </Grid>
-                            <h3>Floors & Roofs</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <h3>Flooring and Tile</h3>
+                            <p>Elevate the aesthetics and functionality of your interiors with our top-tier flooring and tile installation expertise. At ORV Remodeling, we bring your design dreams to life, one tile at a time. Our skilled team of installation professionals is dedicated to delivering flawless craftsmanship that not only enhances the beauty of your space but also stands the test of time.</p>
                         </Grid>
                     </Grid>
                     <Grid item md={4} sm={6} xs={12} className="">
@@ -95,7 +94,7 @@ class OurService extends Component {
                                     <img src={IconMotro} alt=""/>
                                 </Grid>
                             </Grid>
-                            <h3>Building Construction</h3>
+                            <h3>Framing</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
                         </Grid>
@@ -139,7 +138,7 @@ class OurService extends Component {
                                     <img src={IconDil} alt=""/>
                                 </Grid>
                             </Grid>
-                            <h3>Architecture Design</h3>
+                            <h3>Custom Shower and Bathn</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
                         </Grid>

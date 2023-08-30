@@ -136,13 +136,13 @@ class Nav extends Component {
                     <nav id="responsive-menu" className={NavURL ? 'menu-style-one menu-two' : 'menu-style-one'}>
                         <ul className="menu-items">
                             <li><Link to="/">Home</Link>
-                                <ul className="submenu">
+                                {/* <ul className="submenu">
                                     <li><Link to="/">Home One</Link></li>
                                     <li><Link to="/home-two">Home Two</Link></li>
                                     <li><Link to="/home-three">Home Three</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><Link to="/about">About</Link></li>
+                            {/* <li><Link to="/about">About</Link></li> */}
                             <li><Link to="/services" aaaaa="dfsfsdfsd">Services</Link></li>
                             {/* <li><Link to="/portfolio">All Project</Link></li> */}
                             {/* <li><Link to="/blog">News</Link></li> */}

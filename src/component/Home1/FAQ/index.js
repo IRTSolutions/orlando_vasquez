@@ -59,8 +59,8 @@ class FAQ extends Component {
                     </Grid>
                     <Grid item md={6} sm={12}>
                         <Grid className="theme-heading">
-                            <span>Some FAQ’s</span>
-                            <h2>Frequently Asked Questions</h2>
+                            {/* <span>Some FAQ’s</span> */}
+                            <h2>Why Choose Us?</h2>
                         </Grid>
                         <Grid className="frequent-ask-accrodian">
                             <List
@@ -71,39 +71,36 @@ class FAQ extends Component {
                             >
 
                                 <ListItem className="collapse_heading" button onClick={this.handleClick1}>
-                                    <ListItemText primary="Why We Best?"/>
+                                    <ListItemText primary="Unparalleled Expertise"/>
                                     {this.state.open1 ? <ExpandLess/> : <ExpandMore/>}
                                 </ListItem>
                                 <Collapse in={this.state.open1} timeout="auto" unmountOnExit>
                                     <List component="div" disablePadding>
                                         <ListItem button className={'nested'}>
-                                            <ListItemText className="collapse_description" primary="There are many variations of passages of available but majority have
-                                                alteration in some by inject humour or random words. Lorem ipsum dolor
-                                                sit amet, error insolens reprimique."/>
+                                            <ListItemText className="collapse_description" primary="At ORV, remodeling isn't just a service - it's an art. With years of industry experience, our team of skilled professionals brings a wealth of knowledge to every project, ensuring that each detail is executed to perfection."/>
                                         </ListItem>
                                     </List>
                                 </Collapse>
                                 <ListItem className="collapse_heading" button onClick={this.handleClick2}>
-                                    <ListItemText primary="Feature With Great Service"/>
+                                    <ListItemText primary="Tailored to You"/>
                                     {this.state.open2 ? <ExpandLess/> : <ExpandMore/>}
                                 </ListItem>
                                 <Collapse in={this.state.open2} timeout="auto" unmountOnExit>
                                     <List component="div" disablePadding>
                                         <ListItem button className={'nested'}>
                                             <ListItemText className="collapse_description"
-                                                          primary="Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."/>
+                                                          primary="No two projects are the same, and neither are our solutions. We pride ourselves on creating customized remodeling plans that reflect your unique style, needs, and preferences. Your space should tell your story, and we're here to help you write it."/>
                                         </ListItem>
                                     </List>
                                 </Collapse>
                                 <ListItem className="collapse_heading" button onClick={this.handleClick3}>
-                                    <ListItemText primary="Great Qustion for our customer"/>
+                                    <ListItemText primary="Timely and Transparent"/>
                                     {this.state.open3 ? <ExpandLess/> : <ExpandMore/>}
                                 </ListItem>
                                 <Collapse in={this.state.open3} timeout="auto" unmountOnExit>
                                     <List component="div" disablePadding>
                                         <ListItem button className={'nested'}>
-                                            <ListItemText className="collapse_description" primary="Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
-"/>
+                                            <ListItemText className="collapse_description" primary="We understand that your time is valuable. Our efficient project management ensures that timelines are met without compromising quality. With transparent communication every step of the way, you'll always be in the loop"/>
                                         </ListItem>
                                     </List>
                                 </Collapse>

@@ -1,15 +1,15 @@
 import React, {Component} from "react";
-import OurService1 from "../../../images/wedo/w1.png";
+import WoodFencing from "../../../images/wedo/Fencing_Square.jpg";
 import OurService2 from "../../../images/wedo/w2.png";
 import OurService3 from "../../../images/wedo/drain_plumbing.jpg";
-import OurService4 from "../../../images/wedo/w4.png";
+import Decks from "../../../images/wedo/Decks_square.jpg";
 import Grid from "@material-ui/core/Grid";
 
 const ServiceItem = [
     {
         id: 1,
         title: 'Painting',
-        image: OurService1,
+        image: OurService2,
         description: 'Painting walls, trim, doors.'
     },
     {
@@ -27,13 +27,13 @@ const ServiceItem = [
     {
         id: 4,
         title: 'Electrical',
-        image: OurService4,
+        image: OurService2,
         description: 'Run electrical wiring, installation and relocation of lighting and switches'
     },
     {
         id: 5,
         title: 'Framing',
-        image: OurService1,
+        image: OurService2,
         description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
     {
@@ -44,14 +44,14 @@ const ServiceItem = [
     },
     {
         id: 7,
-        title: 'Residential Design',
-        image: OurService1,
+        title: 'Wood Fencing',
+        image: WoodFencing,
         description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
     {
         id: 8,
-        title: 'Residential Design',
-        image: OurService4,
+        title: 'Decks',
+        image: Decks,
         description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
 
