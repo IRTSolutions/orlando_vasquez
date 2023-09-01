@@ -30,8 +30,7 @@ class OurService extends Component {
                                 </Grid>
                             </Grid>
                             <h3>Design build</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <p>Discover the seamless journey of design and build with us. Our experts bring your ideas to life, from concept to completion. Together, we transform your vision into a reality, crafting spaces that inspire and amaze.</p>
                         </Grid>
                     </Grid>
                     <Grid item md={4} sm={6} xs={12} className="">
@@ -52,8 +51,7 @@ class OurService extends Component {
                                 </Grid>
                             </Grid>
                             <h3>General Construction</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <p>Experience the construction process reimagined. Our skilled team navigates every step, ensuring quality, efficiency, and your complete satisfaction. From demolition to the finishing touches, we make your remodeling dreams a reality.a</p>
                         </Grid>
                     </Grid>
                     <Grid item md={4} sm={6} xs={12} className="">
@@ -94,9 +92,8 @@ class OurService extends Component {
                                     <img src={IconMotro} alt=""/>
                                 </Grid>
                             </Grid>
-                            <h3>Framing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <h3>Kitchens</h3>
+                            <p>Experience the heart of your home reimagined. Our kitchen remodels blend style and functionality seamlessly, creating culinary spaces that inspire. From countertops to cabinets, we design and build your dream kitchen</p>
                         </Grid>
                     </Grid>
                     <Grid item md={4} sm={6} xs={12} className="">
@@ -117,8 +114,7 @@ class OurService extends Component {
                                 </Grid>
                             </Grid>
                             <h3>Rooms & Halls</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <p>Transform any room into your ideal space with our remodeling expertise. From concept to creation, we revamp and redefine interiors, making your vision a stunning reality. Your dream room awaits. </p>
                         </Grid>
                     </Grid>
                     <Grid item md={4} sm={6} xs={12} className="">
@@ -138,9 +134,8 @@ class OurService extends Component {
                                     <img src={IconDil} alt=""/>
                                 </Grid>
                             </Grid>
-                            <h3>Custom Shower and Bathn</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+                            <h3>Custom Shower and Bath</h3>
+                            <p>Step into a world of relaxation and luxury with our shower and bath remodeling process. We meticulously plan, design, and install your dream bathroom features, creating a spa-like retreat in your own home. </p>
                         </Grid>
                     </Grid>
                 </Grid>

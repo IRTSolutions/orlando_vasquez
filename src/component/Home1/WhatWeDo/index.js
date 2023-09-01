@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Wedo1 from '../../../images/wedo/bathroom.jpg';
 import Wedo2 from '../../../images/wedo/kitchen2_square.jpg';
 import Wedo3 from '../../../images/wedo/drain_plumbing.jpg';
-import Wedo4 from '../../../images/wedo/w4.png';
+import Sconces from '../../../images/wedo/sconces_square.jpg';
 import {Link} from "react-router-dom";
 import OurServicePage from "../../OurService/OurServicePage";
 import ContactPage from "../../Contact/ContactPage";
@@ -40,14 +40,14 @@ class WhatWeDo extends Component {
                         <Grid className="single-we-do">
                             <img src={Wedo3} alt=""/>
                             <h3>Plumbing</h3>
-                            <p>Fixing the flow, one connection at a time. 💧🚰</p>
+                            <p>Fixing the flow, one connection at a time.</p>
                         </Grid>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
-                            <img src={Wedo4} alt=""/>
+                            <img src={Sconces} alt=""/>
                             <h3>Electrical</h3>
-                            <p>Illuminating the way with precision and expertise. ⚡🔌</p>
+                            <p>Illuminating the way with precision and expertise.</p>
                         </Grid>
                     </Grid>
 
