@@ -1,58 +1,60 @@
 import React, {Component} from "react";
 import WoodFencing from "../../../images/wedo/Fencing_Square.jpg";
-import OurService2 from "../../../images/wedo/w2.png";
+import ShowerFrame from "../../../images/wedo/showerFrame_Square.jpg";
+import Tile from "../../../images/wedo/tileWIP_square.jpg";
 import OurService3 from "../../../images/wedo/drain_plumbing.jpg";
 import Decks from "../../../images/wedo/Decks_square.jpg";
+import Paint from "../../../images/wedo/paintRollerSquare.jpg";
 import Grid from "@material-ui/core/Grid";
 
 const ServiceItem = [
     {
         id: 1,
         title: 'Painting',
-        image: OurService2,
-        description: 'Painting walls, trim, doors.'
+        image: Paint,
+        description: 'Revamp your space with our professional paint services. From walls to ceilings, we bring color and life to your vision. Quality, speed, and attention to detail are our brushstrokes. '
     },
     {
         id: 2,
         title: 'Tile and Flooring',
-        image: OurService2,
-        description: 'Flooring and decorative tile installation'
+        image: Tile,
+        description: 'Transform your space with our top-tier tile installation services. Precision, style, and durability come together to create the perfect surface for your home or business. '
     },
     {
         id: 3,
         title: 'Plumbing',
         image: OurService3,
-        description: 'Full plumbing services, relocate waterlines and drains. Install faucets and appliances'
+        description: 'Trust us for all your plumbing needs. From repairs to installations, we\'ve got you covered. Reliable, experienced, and ready to help'
     },
     {
         id: 4,
         title: 'Electrical',
-        image: OurService2,
-        description: 'Run electrical wiring, installation and relocation of lighting and switches'
+        image: ShowerFrame,
+        description: 'Your electrical needs, our expertise. We offer top-notch electrical services for your home or business. Safe, efficient, and always on time'
     },
     {
         id: 5,
         title: 'Framing',
-        image: OurService2,
+        image: ShowerFrame,
         description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
     },
     {
         id: 6,
         title: 'Drywall',
-        image: OurService2,
-        description: 'Repair, Installation and Texture.'
+        image: ShowerFrame,
+        description: 'Get the perfect walls for your space with our expert drywall installation. We make sure it\'s smooth and ready for your style'
     },
     {
         id: 7,
         title: 'Wood Fencing',
         image: WoodFencing,
-        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Crafting privacy, one plank at a time.'
     },
     {
         id: 8,
         title: 'Decks',
         image: Decks,
-        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Crafting the foundation of your outdoor dreams, step by step'
     },
 
 ];
@@ -66,7 +68,7 @@ class Services extends Component {
                     <Grid item lg={10} xs={12} className="text-center">
                         <Grid className="what-we-do-title">
                             <span>what we do</span>
-                            <h2>We build strong brands and grow businesses through branded services, <span>digital storytelling.</span>
+                            <h2>Our expertise spans every corner of your home. From <span>revitalizing</span> kitchens and <span>luxurious</span> bathrooms to <span>expanding</span> living spaces and <span>rejuvenating</span> outdoor areas, we take on projects of all scales. No challenge is too big, no detail is too small.
                             </h2>
                         </Grid>
                     </Grid>

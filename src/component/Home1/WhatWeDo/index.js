@@ -26,32 +26,28 @@ class WhatWeDo extends Component {
                         <Grid className="single-we-do">
                             <img src={Wedo1} alt=""/>
                             <h3>Bathroom</h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incidid</p>
+                            <p>Elevating everyday routines with a touch of luxury</p>
                         </Grid>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo2} alt=""/>
                             <h3>Kitchen</h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incidid</p>
+                            <p>From outdated to outstanding! Our kitchen remodel has transformed this space into a culinary haven</p>
                         </Grid>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo3} alt=""/>
                             <h3>Plumbing</h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incidid</p>
+                            <p>Fixing the flow, one connection at a time. 💧🚰</p>
                         </Grid>
                     </Grid>
                     <Grid item md={3} sm={6} xs={12} className="text-center">
                         <Grid className="single-we-do">
                             <img src={Wedo4} alt=""/>
                             <h3>Electrical</h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
-                                incidid</p>
+                            <p>Illuminating the way with precision and expertise. ⚡🔌</p>
                         </Grid>
                     </Grid>
 

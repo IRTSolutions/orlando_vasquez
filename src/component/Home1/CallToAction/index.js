@@ -13,11 +13,8 @@ class CallToAction extends Component{
                     <Grid item lg={2}></Grid>
                     <Grid item md={12} lg={8} className="col-md-12 col-lg-8 offset-lg-2 text-center">
                         <Grid className="call-to-action">
-                            <h2>Let's Make Awesome Things, Together.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste tenetur quasi
-                                tempora,
-                                dolore magnam, in quas perspiciatis rem, reiciendis, repellat placeat deserunt adipisci
-                                porro aperiam? Officia, sapiente, temporibus!</p>
+                            <h2>Personalized Approach.</h2>
+                            <p>Your space is a reflection of your identity, and we treat it as such. Our remodeling plans are tailor-made to suit your lifestyle and needs, transforming your vision into a functional masterpiece that resonates with your essence.</p>
                             <Link to="/contact" className="theme_btn call-action-btn">Start your project</Link>
                         </Grid>
                     </Grid>
