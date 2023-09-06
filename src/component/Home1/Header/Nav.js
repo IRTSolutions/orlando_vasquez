@@ -147,7 +147,7 @@ class Nav extends Component {
                             {/* <li><Link to="/portfolio">All Project</Link></li> */}
                             {/* <li><Link to="/blog">News</Link></li> */}
                             <li><Link to="/contact">Contact</Link></li>
-                            {/* <li><a href="javascript:">Pages</a>
+                            {/* <li><a href="#">Pages</a>
                                 <ul className="submenu">
                                     <li><Link to="/shop">Shop</Link></li>
                                     <li><Link to="/singlepost">Single Blog</Link></li>

@@ -108,7 +108,7 @@ class Shop extends Component {
                                         <Grid className="single-product-item">
                                             <Grid className="product_thumb">
                                                 <img src={product.image} alt=""/>
-                                                <a href="javascript:">Add to Cart</a>
+                                                <a href="#">Add to Cart</a>
                                             </Grid>
                                             <h4><Link to="/singleproduct">{product.name}</Link></h4>
                                             <span>${product.price}</span>
@@ -121,9 +121,9 @@ class Shop extends Component {
 
                         <Grid className="pagination text-center">
                             <ul>
-                                <li><a href="javascript:">1</a></li>
-                                <li><a href="javascript:">2</a></li>
-                                <li><a href="javascript:"><i className="fal fa-angle-right"></i></a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#"><i className="fal fa-angle-right"></i></a></li>
                             </ul>
                         </Grid>
                     </Grid>

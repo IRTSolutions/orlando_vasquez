@@ -29,7 +29,7 @@ class Video extends Component {
                         <Grid  className="video-buttton">
                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='_TI26foIVy0'
                                         onClose={() => this.setState({isOpen: false})}/>
-                            <a onClick={this.openModal} href="javascript:" className="play_video_btn popup-video">
+                            <a onClick={this.openModal} href="#" className="play_video_btn popup-video">
                                 <i className="fal fa-play"></i>
                             </a>
                         </Grid>
@@ -55,7 +55,7 @@ class Video extends Component {
                                         tempor incididunt ut labore et dolore magna aliqua.</p>
                                 </li>
                             </ul>
-                            <a href="javascript:" className="theme_btn">LEARN MORE</a>
+                            <a href="#" className="theme_btn">LEARN MORE</a>
                         </Grid>
                     </Grid>
                 </Grid>

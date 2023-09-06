@@ -22,7 +22,7 @@ class AboutUsTwo extends Component {
                             <h3>Building</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
-                            <a href="javascript:"><i className="fal fa-long-arrow-right"></i></a>
+                            <a href="#"><i className="fal fa-long-arrow-right"></i></a>
                         </Grid>
                     </Grid>
                     <Grid item lg={3} sm={6} className="text-center">
@@ -31,7 +31,7 @@ class AboutUsTwo extends Component {
                             <h3>Halls</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
-                            <a href="javascript:"><i className="fal fa-long-arrow-right"></i></a>
+                            <a href="#"><i className="fal fa-long-arrow-right"></i></a>
                         </Grid>
                     </Grid>
                     <Grid item lg={3} sm={6} className="text-center">
@@ -40,7 +40,7 @@ class AboutUsTwo extends Component {
                             <h3>Consaltant</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
-                            <a href="javascript:"><i className="fal fa-long-arrow-right"></i></a>
+                            <a href="#"><i className="fal fa-long-arrow-right"></i></a>
                         </Grid>
                     </Grid>
                     <Grid item lg={3} sm={6} className="text-center">
@@ -49,7 +49,7 @@ class AboutUsTwo extends Component {
                             <h3>Contracting</h3>
                             <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor
                                 incidid</p>
-                            <a href="javascript:"><i className="fal fa-long-arrow-right"></i></a>
+                            <a href="#"><i className="fal fa-long-arrow-right"></i></a>
                         </Grid>
                     </Grid>
                 </Grid>

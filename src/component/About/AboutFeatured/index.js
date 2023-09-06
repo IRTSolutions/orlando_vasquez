@@ -25,7 +25,7 @@ class AboutFeatured extends Component {
                                     <p>Always on time and reliable.</p>
                                 </li>
                             </ul>
-                            <a href="javascript:" className="theme_btn">LEARN MORE</a>
+                            <a href="#" className="theme_btn">LEARN MORE</a>
                         </Grid>
                     </Grid>
                     <Grid item md={1}></Grid>

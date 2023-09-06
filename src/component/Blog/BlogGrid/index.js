@@ -24,10 +24,10 @@ class BlogGid extends Component {
                                 <h2><Link to="/singlepost">Example of job specification</Link></h2>
                                 <Grid className="post-meta">
                                     <ul>
-                                        <li><a href="javascript:">25 February , 2019</a></li>
-                                        <li><a href="javascript:">By admin</a></li>
-                                        <li><a href="javascript:">Design, Interiors</a></li>
-                                        <li><a href="javascript:">3 comments</a></li>
+                                        <li><a href="#">25 February , 2019</a></li>
+                                        <li><a href="#">By admin</a></li>
+                                        <li><a href="#">Design, Interiors</a></li>
+                                        <li><a href="#">3 comments</a></li>
                                     </ul>
                                 </Grid>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -45,10 +45,10 @@ class BlogGid extends Component {
                                 <h2><Link to="/singlepost">Example of job specification</Link></h2>
                                 <Grid className="post-meta">
                                     <ul>
-                                        <li><a href="javascript:">25 February , 2019</a></li>
-                                        <li><a href="javascript:">By admin</a></li>
-                                        <li><a href="javascript:">Design, Interiors</a></li>
-                                        <li><a href="javascript:">3 comments</a></li>
+                                        <li><a href="#">25 February , 2019</a></li>
+                                        <li><a href="#">By admin</a></li>
+                                        <li><a href="#">Design, Interiors</a></li>
+                                        <li><a href="#">3 comments</a></li>
                                     </ul>
                                 </Grid>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -65,10 +65,10 @@ class BlogGid extends Component {
                                 <h2><Link to="/singlepost">Example of job specification</Link></h2>
                                 <Grid className="post-meta">
                                     <ul>
-                                        <li><a href="javascript:">25 February , 2019</a></li>
-                                        <li><a href="javascript:">By admin</a></li>
-                                        <li><a href="javascript:">Design, Interiors</a></li>
-                                        <li><a href="javascript:">3 comments</a></li>
+                                        <li><a href="#">25 February , 2019</a></li>
+                                        <li><a href="#">By admin</a></li>
+                                        <li><a href="#">Design, Interiors</a></li>
+                                        <li><a href="#">3 comments</a></li>
                                     </ul>
                                 </Grid>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -85,10 +85,10 @@ class BlogGid extends Component {
                                 <h2><Link to="/singlepost">Example of job specification</Link></h2>
                                 <Grid className="post-meta">
                                     <ul>
-                                        <li><a href="javascript:">25 February , 2019</a></li>
-                                        <li><a href="javascript:">By admin</a></li>
-                                        <li><a href="javascript:">Design, Interiors</a></li>
-                                        <li><a href="javascript:">3 comments</a></li>
+                                        <li><a href="#">25 February , 2019</a></li>
+                                        <li><a href="#">By admin</a></li>
+                                        <li><a href="#">Design, Interiors</a></li>
+                                        <li><a href="#">3 comments</a></li>
                                     </ul>
                                 </Grid>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -102,9 +102,9 @@ class BlogGid extends Component {
 
                         <Grid className="pagination">
                             <ul>
-                                <li><a href="javascript:">1</a></li>
-                                <li><a href="javascript:">2</a></li>
-                                <li><a href="javascript:"><i className="fal fa-angle-right"></i></a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#"><i className="fal fa-angle-right"></i></a></li>
                             </ul>
                         </Grid>
 
@@ -115,12 +115,12 @@ class BlogGid extends Component {
                                 <h3>Categories</h3>
                                 <Grid className="categorie">
                                     <ul>
-                                        <li><a href="javascript:">Branding <span>12</span></a></li>
-                                        <li><a href="javascript:">UI Design <span>32</span></a></li>
-                                        <li><a href="javascript:">Typography <span>22</span></a></li>
-                                        <li><a href="javascript:">Wordpress <span>15</span></a></li>
-                                        <li><a href="javascript:">Development <span>30</span></a></li>
-                                        <li><a href="javascript:">Photography <span>03</span></a></li>
+                                        <li><a href="#">Branding <span>12</span></a></li>
+                                        <li><a href="#">UI Design <span>32</span></a></li>
+                                        <li><a href="#">Typography <span>22</span></a></li>
+                                        <li><a href="#">Wordpress <span>15</span></a></li>
+                                        <li><a href="#">Development <span>30</span></a></li>
+                                        <li><a href="#">Photography <span>03</span></a></li>
                                     </ul>
                                 </Grid>
                             </Grid>
@@ -172,13 +172,13 @@ class BlogGid extends Component {
                             <h3>Tags</h3>
                             <Grid className="tags">
                                 <ul>
-                                    <li><a href="javascript:">Responsive</a></li>
-                                    <li><a href="javascript:">Development</a></li>
-                                    <li><a href="javascript:">free</a></li>
-                                    <li><a href="javascript:">Branding</a></li>
-                                    <li><a href="javascript:">Awesome</a></li>
-                                    <li><a href="javascript:">Typography</a></li>
-                                    <li><a href="javascript:">Wordpress</a></li>
+                                    <li><a href="#">Responsive</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">free</a></li>
+                                    <li><a href="#">Branding</a></li>
+                                    <li><a href="#">Awesome</a></li>
+                                    <li><a href="#">Typography</a></li>
+                                    <li><a href="#">Wordpress</a></li>
                                 </ul>
                             </Grid>
                         </Grid>

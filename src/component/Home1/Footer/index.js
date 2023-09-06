@@ -46,10 +46,10 @@ class Footer extends Component {
                                 <Grid className="contact-content">
                                     <h4>Follow Us</h4>
                                     <Grid className="follow-icons">
-                                        <a href="javascript:"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="javascript:"><i className="fab fa-twitter"></i></a>
-                                        <a href="javascript:"><i className="fab fa-linkedin-in"></i></a>
-                                        <a href="javascript:"><i className="fab fa-instagram"></i></a>
+                                        <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i className="fab fa-twitter"></i></a>
+                                        <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.instagram.com/northernlight_remodeling/"><i className="fab fa-instagram"></i></a>
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -86,12 +86,12 @@ class Footer extends Component {
                             <Grid className="single-footer-widget">
                                 <h3>Useful Links</h3>
                                 <ul>
-                                    <li><a href="javascript:">All properties</a></li>
-                                    <li><a href="javascript:">FAQ’S</a></li>
-                                    <li><a href="javascript:">Terms & Conditions</a></li>
-                                    <li><a href="javascript:">Sign up</a></li>
-                                    <li><a href="javascript:">Articles</a></li>
-                                    <li><a href="javascript:">Popular tags</a></li>
+                                    <li><a href="#">All properties</a></li>
+                                    <li><a href="#">FAQ’S</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Sign up</a></li>
+                                    <li><a href="#">Articles</a></li>
+                                    <li><a href="#">Popular tags</a></li>
                                 </ul>
                             </Grid>
                         </Grid>
@@ -104,7 +104,7 @@ class Footer extends Component {
                                             <img src={FooterNews1} alt=""/>
                                         </Grid>
                                         <Grid className="news-title">
-                                            <a href="javascript:">We Build Your Best Home With Our Best </a>
+                                            <a href="#">We Build Your Best Home With Our Best </a>
                                             <span>On : Feb 12, 2015</span>
                                         </Grid>
                                     </Grid>
@@ -113,7 +113,7 @@ class Footer extends Component {
                                             <img src={FooterNews2} alt=""/>
                                         </Grid>
                                         <Grid className="news-title">
-                                            <a href="javascript:">The Good Plan for Design To Build Your House</a>
+                                            <a href="#">The Good Plan for Design To Build Your House</a>
                                             <span>On : Feb 12, 2015</span>
                                         </Grid>
                                     </Grid>
@@ -129,10 +129,10 @@ class Footer extends Component {
                             <Grid item lg={6} sm={12} className="text-lg-right text-center">
                                 <Grid className="footer-menu">
                                     <ul>
-                                        <li><a href="javascript:">Disclaimer</a></li>
-                                        <li><a href="javascript:">Privacy</a></li>
-                                        <li><a href="javascript:">Advertisement</a></li>
-                                        <li><a href="javascript:">Contact us</a></li>
+                                        <li><a href="#">Disclaimer</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Advertisement</a></li>
+                                        <li><a href="#">Contact us</a></li>
                                     </ul>
                                 </Grid>
                             </Grid>

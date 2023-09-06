@@ -18,14 +18,14 @@ class ServiceDetailsPage extends Component {
                             <Grid className="service-left-content">
                                 <Grid className="service-cat">
                                     <ul>
-                                        <li><a href="javascript:">Painting <i className="fal fa-angle-right"></i></a>
+                                        <li><a href="#">Painting <i className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Framing <i className="fal fa-angle-right"></i></a>
+                                        <li><a href="#">Framing <i className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Plumbing <i
+                                        <li><a href="#">Plumbing <i
                                             className="fal fa-angle-right"></i></a>
                                         </li>
-                                        <li><a href="javascript:">Flooring<i
+                                        <li><a href="#">Flooring<i
                                             className="fal fa-angle-right"></i></a>
                                         </li>
                                     </ul>
@@ -36,8 +36,8 @@ class ServiceDetailsPage extends Component {
                                     <p>Apisicin sectetur adipisicing elit,do eiusmod tempor incididunt ut labore et
                                         dolore magna kobe.</p>
                                     <Grid className="download-details">
-                                        <a href="javascript:"><i className="fal fa-file-pdf"></i>HOME REMODELING.PDF</a>
-                                        <a href="javascript:"><i className="fal fa-file-pdf"></i>WARRANTY INFOR.PDF</a>
+                                        <a href="#"><i className="fal fa-file-pdf"></i>HOME REMODELING.PDF</a>
+                                        <a href="#"><i className="fal fa-file-pdf"></i>WARRANTY INFOR.PDF</a>
                                     </Grid>
                                 </Grid>
                             </Grid>

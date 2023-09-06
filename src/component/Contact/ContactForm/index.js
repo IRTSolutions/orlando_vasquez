@@ -48,7 +48,7 @@ class ContactForm extends Component {
                                 </Grid>
                                 <Grid className="row">
                                     <Grid className="form-group col-12 col-md-12 col-sm-12 col-xl-12 message-box">
-                                        <textarea name="message" id="message" name="message"
+                                        <textarea name="message" id="message"
                                                   placeholder="Message"></textarea>
                                     </Grid>
                                 </Grid>

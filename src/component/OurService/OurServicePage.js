@@ -18,7 +18,7 @@ class OurServicePage extends Component{
                 <Services/>
                 <CallToAction/>
                 <OurService/>
-                <Testimonial bgColor={this.state.bgColor}/>
+                {/* <Testimonial bgColor={this.state.bgColor}/> */}
             </div>
         )
     }

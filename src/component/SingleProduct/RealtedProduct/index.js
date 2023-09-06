@@ -16,7 +16,7 @@ class RelatedProduct extends Component {
                         <Grid className="single-product-item">
                             <Grid className="product_thumb">
                                 <img src={ProductImg2} alt=""/>
-                                <a href="javascript:">Add to Cart</a>
+                                <a href="#">Add to Cart</a>
                             </Grid>
                             <h4><Link to="/singleproduct">Brush</Link></h4>
                             <span>$12.00</span>
@@ -26,7 +26,7 @@ class RelatedProduct extends Component {
                         <Grid className="single-product-item">
                             <Grid className="product_thumb">
                                 <img src={ProductImg3} alt=""/>
-                                <a href="javascript:">Add to Cart</a>
+                                <a href="#">Add to Cart</a>
                             </Grid>
                             <h4><Link to="/singleproduct">Nailer</Link></h4>
                             <span>$12.00</span>
@@ -36,7 +36,7 @@ class RelatedProduct extends Component {
                         <Grid className="single-product-item">
                             <Grid className="product_thumb">
                                 <img src={ProductImg4} alt=""/>
-                                <a href="javascript:">Add to Cart</a>
+                                <a href="#">Add to Cart</a>
                             </Grid>
                             <h4><Link to="/singleproduct">Miter</Link></h4>
                             <span>$12.00</span>
@@ -46,7 +46,7 @@ class RelatedProduct extends Component {
                         <Grid className="single-product-item">
                             <Grid className="product_thumb">
                                 <img src={ProductImg5} alt=""/>
-                                <a href="javascript:">Add to Cart</a>
+                                <a href="#">Add to Cart</a>
                             </Grid>
                             <h4><Link to="/singleproduct">Power tool</Link></h4>
                             <span>$12.00</span>

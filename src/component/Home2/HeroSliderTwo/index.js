@@ -30,7 +30,7 @@ class HeroSliderTwo extends Component {
                                     <h2>The only constant in the <br/>technology industry is change</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br/>eiusmod
                                         tempor incididunt ut labore</p>
-                                    <a href="javascript:" className="theme_btn get_start">Get details</a>
+                                    <a href="#" className="theme_btn get_start">Get details</a>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -49,7 +49,7 @@ class HeroSliderTwo extends Component {
                                     <h2>The only constant in the <br/>technology industry is change</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br/>eiusmod
                                         tempor incididunt ut labore</p>
-                                    <a href="javascript:" className="theme_btn get_start">Get details</a>
+                                    <a href="#" className="theme_btn get_start">Get details</a>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -67,7 +67,7 @@ class HeroSliderTwo extends Component {
                                     <h2>The only constant in the <br/>technology industry is change</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br/>eiusmod
                                         tempor incididunt ut labore</p>
-                                    <a href="javascript:" className="theme_btn get_start">Get details</a>
+                                    <a href="#" className="theme_btn get_start">Get details</a>
                                 </Grid>
                             </Grid>
                         </Grid>

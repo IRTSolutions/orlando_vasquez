@@ -28,7 +28,7 @@ class HeroSlider extends Component {
                                     <h1>ORV Remodeling</h1>
                                     <p>Discover the ORV Remodeling difference <br/>where remodeling goes beyond construction and becomes an art of transformation.<br/> Let's redefine your space together.</p>
                                 
-                                    {/* <a href="javascript:" className="theme_btn get_start">Get details</a> */}
+                                    {/* <a href="#" className="theme_btn get_start">Get details</a> */}
                                 </Grid>
                             </Grid>
                             <Grid className="slide-img d-none d-lg-block">
@@ -47,7 +47,7 @@ class HeroSlider extends Component {
                                     <h1>Beautiful Kitchens</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
                                         dicta<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
-                                    {/* <a href="javascript:" className="theme_btn get_start">Get details</a> */}
+                                    {/* <a href="#" className="theme_btn get_start">Get details</a> */}
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -66,7 +66,7 @@ class HeroSlider extends Component {
                                     <h1>Custom Showers</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta <br/>sapiente,
                                         quo in minus nostrum praesentium quidem.</p>
-                                    {/* <a href="javascript:" className="theme_btn get_start">Get details</a> */}
+                                    {/* <a href="#" className="theme_btn get_start">Get details</a> */}
                                 </Grid>
                             </Grid>
                         </Grid>

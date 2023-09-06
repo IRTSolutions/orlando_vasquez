@@ -71,10 +71,10 @@ class Header extends Component {
                         <Grid className="col-lg-4 col-md-3 text-md-right">
                             <Grid className="social-profile">
                                 <ul>
-                                    <li><a href="javascript:"><i className="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:"><i className="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:"><i className="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="javascript:"><i className="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i className="fab fa-google-plus-g"></i></a></li>
                                 </ul>
                             </Grid>
                         </Grid>

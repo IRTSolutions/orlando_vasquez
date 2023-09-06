@@ -19,8 +19,8 @@ class HomePage extends Component{
                 <FAQ/>
                 <OurService/>
                 <CallToAction/>
-                <Portfolio/>
-                <Blog/>
+                {/* <Portfolio/> */}
+                {/* <Blog/> */}
             </div>
         )
     }

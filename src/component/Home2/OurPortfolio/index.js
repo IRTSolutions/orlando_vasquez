@@ -102,7 +102,7 @@ const OurPortfolio = () => {
                     })}
                 </Grid>
                 <Grid className="ajax_load_btn text-center mt-60">
-                    <a href="javascript:" className="theme_btn">VIEW MORE</a>
+                    <a href="#" className="theme_btn">VIEW MORE</a>
                 </Grid>
             </section>
         </Fragment>

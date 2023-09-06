@@ -78,11 +78,11 @@ class ProductSection extends Component {
                             <h1>Electric fret saw</h1>
                             <Grid className="product-rating">
                                 <ul>
-                                    <li><a href="javascript:"><i className="fas fa-star"></i></a></li>
-                                    <li><a href="javascript:"><i className="fas fa-star"></i></a></li>
-                                    <li><a href="javascript:"><i className="fas fa-star"></i></a></li>
-                                    <li><a href="javascript:"><i className="fas fa-star"></i></a></li>
-                                    <li><a href="javascript:"><i className="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                    <li><a href="#"><i className="fas fa-star"></i></a></li>
                                     <span>(2)</span>
                                 </ul>
                             </Grid>
@@ -95,7 +95,7 @@ class ProductSection extends Component {
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </Grid>
                             <Grid className="add-to-cart-section">
-                                <a href="javascript:" className="add-to-cart-btn theme_btn "><i className="fa fa-cart"></i>ADD
+                                <a href="#" className="add-to-cart-btn theme_btn "><i className="fa fa-cart"></i>ADD
                                     TO CART</a>
 
                             </Grid>

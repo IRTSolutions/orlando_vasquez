@@ -25,13 +25,13 @@ class SinglePost extends Component {
                                 <Grid className="blog-featured-image">
                                     <img src={SingleBlogImg1} alt=""/>
                                 </Grid>
-                                <h2><a href="javascript:">Example of job specification</a></h2>
+                                <h2><a href="#">Example of job specification</a></h2>
                                 <Grid className="post-meta">
                                     <ul>
-                                        <li><a href="javascript:">25 February , 2019</a></li>
-                                        <li><a href="javascript:">By admin</a></li>
-                                        <li><a href="javascript:">Design, Interiors</a></li>
-                                        <li><a href="javascript:">3 comments</a></li>
+                                        <li><a href="#">25 February , 2019</a></li>
+                                        <li><a href="#">By admin</a></li>
+                                        <li><a href="#">Design, Interiors</a></li>
+                                        <li><a href="#">3 comments</a></li>
                                     </ul>
                                 </Grid>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -53,15 +53,15 @@ class SinglePost extends Component {
                         <Grid container spacing={3} className="tags-share-section">
                             <Grid item sm={6} xs={12} className="tags-list">
                                 <span>TAGS  :</span>
-                                <a href="javascript:">Photography</a>
-                                <a href="javascript:">Content</a>
-                                <a href="javascript:">News</a>
+                                <a href="#">Photography</a>
+                                <a href="#">Content</a>
+                                <a href="#">News</a>
                             </Grid>
                             <Grid item sm={6} xs={12} className="share-post text-lg-right">
-                                <a href="javascript:"><i className="fab fa-facebook-f"></i></a>
-                                <a href="javascript:"><i className="fab fa-twitter"></i></a>
-                                <a href="javascript:"><i className="fab fa-linkedin-in"></i></a>
-                                <a href="javascript:"><i className="fab fa-instagram"></i></a>
+                                <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a href="#"><i className="fab fa-twitter"></i></a>
+                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/northernlight_remodeling/"><i className="fab fa-instagram"></i></a>
                             </Grid>
                         </Grid>
 
@@ -74,16 +74,16 @@ class SinglePost extends Component {
                                         <h5>Chris Hemsworth</h5>
                                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
                                         sollicitudin. Cras purus odio, vestibulum in vulputate at.
-                                        <span><a href="javascript:"><i className="fal fa-reply"></i> Reply</a></span>
+                                        <span><a href="#"><i className="fal fa-reply"></i> Reply</a></span>
                                         <Grid className="media mt-3 comment-replay ml-140">
-                                            <a href="javascript:">
+                                            <a href="#">
                                                 <img src={SingleBlogComment1} alt=""/>
                                             </a>
                                             <Grid className="media-body">
                                                 <h5>jasicca ben</h5>
                                                 viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                                                 Donec lacinia congue felis in faucibus.
-                                                <span><a href="javascript:"><i
+                                                <span><a href="#"><i
                                                     className="fal fa-reply"></i> Reply</a></span>
                                             </Grid>
                                         </Grid>
@@ -96,7 +96,7 @@ class SinglePost extends Component {
                                         <h5>Chris evans</h5>
                                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
                                         sollicitudin. Cras purus odio, vestibulum in vulputate at.
-                                        <span><a href="javascript:"><i className="fal fa-reply"></i> Reply</a></span>
+                                        <span><a href="#"><i className="fal fa-reply"></i> Reply</a></span>
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -130,12 +130,12 @@ class SinglePost extends Component {
                                 <h3>Categories</h3>
                                 <Grid className="categorie">
                                     <ul>
-                                        <li><a href="javascript:">Branding <span>12</span></a></li>
-                                        <li><a href="javascript:">UI Design <span>32</span></a></li>
-                                        <li><a href="javascript:">Typography <span>22</span></a></li>
-                                        <li><a href="javascript:">Wordpress <span>15</span></a></li>
-                                        <li><a href="javascript:">Development <span>30</span></a></li>
-                                        <li><a href="javascript:">Photography <span>03</span></a></li>
+                                        <li><a href="#">Branding <span>12</span></a></li>
+                                        <li><a href="#">UI Design <span>32</span></a></li>
+                                        <li><a href="#">Typography <span>22</span></a></li>
+                                        <li><a href="#">Wordpress <span>15</span></a></li>
+                                        <li><a href="#">Development <span>30</span></a></li>
+                                        <li><a href="#">Photography <span>03</span></a></li>
                                     </ul>
                                 </Grid>
                             </Grid>
@@ -187,13 +187,13 @@ class SinglePost extends Component {
                             <h3>Tags</h3>
                             <Grid className="tags">
                                 <ul>
-                                    <li><a href="javascript:">Responsive</a></li>
-                                    <li><a href="javascript:">Development</a></li>
-                                    <li><a href="javascript:">free</a></li>
-                                    <li><a href="javascript:">Branding</a></li>
-                                    <li><a href="javascript:">Awesome</a></li>
-                                    <li><a href="javascript:">Typography</a></li>
-                                    <li><a href="javascript:">Wordpress</a></li>
+                                    <li><a href="#">Responsive</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">free</a></li>
+                                    <li><a href="#">Branding</a></li>
+                                    <li><a href="#">Awesome</a></li>
+                                    <li><a href="#">Typography</a></li>
+                                    <li><a href="#">Wordpress</a></li>
                                 </ul>
                             </Grid>
                         </Grid>
