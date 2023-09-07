@@ -7,77 +7,82 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/',
-        submenu: [
-            {
-                id: 12,
-                title: 'Home Two',
-                link: '/home-two',
-            },
-            {
-                id: 13,
-                title: 'Home Three',
-                link: '/home-three',
-            },
-        ]
+        link: '/'
     },
-    {
-        id: 2,
-        title: 'about',
-        link: '/about'
-    },
+    // {
+    //     id: 1,
+    //     title: 'Home',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 12,
+    //             title: 'Home Two',
+    //             link: '/home-two',
+    //         },
+    //         {
+    //             id: 13,
+    //             title: 'Home Three',
+    //             link: '/home-three',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 2,
+    //     title: 'about',
+    //     link: '/about'
+    // },
     {
         id: 4,
         title: 'Services',
         link: '/services'
     },
-    {
-        id: 6,
-        title: 'All Project',
-        link: '/portfolio'
-    },
-    {
-        id: 7,
-        title: 'News',
-        link: '/blog'
-    },
+    // {
+    //     id: 6,
+    //     title: 'All Project',
+    //     link: '/portfolio'
+    // },
+    // {
+    //     id: 7,
+    //     title: 'News',
+    //     link: '/blog'
+    // },
     {
         id: 8,
         title: 'Contact',
         link: '/contact'
     },
-    {
-        id: 9,
-        title: 'Pages',
-        link: '/#',
-        submenu: [
-            {
-                id: 91,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 92,
-                title: 'Single Blog',
-                link: '/singlepost',
-            },
-            {
-                id: 932,
-                title: 'Services Details',
-                link: '/servicesdetails',
-            },
-            {
-                id: 94,
-                title: 'Single Product',
-                link: '/singleproduct',
-            },
-            {
-                id: 95,
-                title: 'Single Portfolio',
-                link: '/singleportfolio',
-            },
-        ]
-    },
+    // {
+    //     id: 9,
+    //     title: 'Pages',
+    //     link: '/#',
+    //     submenu: [
+    //         {
+    //             id: 91,
+    //             title: 'Shop',
+    //             link: '/shop',
+    //         },
+    //         {
+    //             id: 92,
+    //             title: 'Single Blog',
+    //             link: '/singlepost',
+    //         },
+    //         {
+    //             id: 932,
+    //             title: 'Services Details',
+    //             link: '/servicesdetails',
+    //         },
+    //         {
+    //             id: 94,
+    //             title: 'Single Product',
+    //             link: '/singleproduct',
+    //         },
+    //         {
+    //             id: 95,
+    //             title: 'Single Portfolio',
+    //             link: '/singleportfolio',
+    //         },
+    //     ]
+    // },
 ];
 
 class Nav extends Component {

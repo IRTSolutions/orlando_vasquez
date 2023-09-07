@@ -18,7 +18,7 @@ class WhatWeDo extends Component {
                     <Grid item lg={10} xs={12} className="offset-lg-1 col-12 text-center">
                         <Grid className="what-we-do-title">
                             <span>what we do</span>
-                            <h2>From kitchens and bathrooms, to plumbing and tile, or electrical and paint <span>We do it all!</span>
+                            <h2>We specialize in transforming spaces into stunning, functional, and <span>personalized</span> environments. From kitchen and bathroom remodels to room transformations and <span>luxury</span> makeovers, our remodeling company brings your <span>vision</span> to life, elevating the aesthetics and functionality of your home
                             </h2>
                         </Grid>
                     </Grid>

@@ -4,15 +4,16 @@ import ShowerFrame from "../../../images/wedo/showerFrame_Square.jpg";
 import Tile from "../../../images/wedo/tileWIP_square.jpg";
 import OurService3 from "../../../images/wedo/drain_plumbing.jpg";
 import Decks from "../../../images/wedo/Decks_square.jpg";
-import Paint from "../../../images/wedo/paintRollerSquare.jpg";
+import Paint from "../../../images/wedo/exteriorPaint_square.jpg";
 import Grid from "@material-ui/core/Grid";
+import CustomBath from "../../../images/wedo/orlandoBathroom_square.jpg";
 
 const ServiceItem = [
     {
         id: 1,
         title: 'Painting',
         image: Paint,
-        description: 'Revamp your space with our professional paint services. From walls to ceilings, we bring color and life to your vision. Quality, speed, and attention to detail are our brushstrokes. '
+        description: 'Interior and exterior, from walls to ceilings, we bring color and life to your vision. Quality, speed, and attention to detail are our brushstrokes. '
     },
     {
         id: 2,
@@ -26,17 +27,23 @@ const ServiceItem = [
         image: OurService3,
         description: 'Trust us for all your plumbing needs. From repairs to installations, we\'ve got you covered. Reliable, experienced, and ready to help'
     },
+    // {
+    //     id: 4,
+    //     title: 'Electrical',
+    //     image: ShowerFrame,
+    //     description: 'Your electrical needs, our expertise. We offer top-notch electrical services for your home or business. Safe, efficient, and always on time'
+    // },
     {
         id: 4,
-        title: 'Electrical',
-        image: ShowerFrame,
-        description: 'Your electrical needs, our expertise. We offer top-notch electrical services for your home or business. Safe, efficient, and always on time'
+        title: 'Custom Baths',
+        image: CustomBath,
+        description: 'Elevate your daily routine with a custom bathroom remodel tailored to your style and needs. From elegant fixtures to innovative designs, we craft unique sanctuaries that reflect your personality. Your dream bathroom is just a renovation away.'
     },
     {
         id: 5,
         title: 'Framing',
         image: ShowerFrame,
-        description: 'Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incidid'
+        description: 'Building the foundation of your vision with precision and expertise. Our framing job ensures your project is strong, safe, and ready for transformation. Trust us to lay the groundwork for your dream space.'
     },
     {
         id: 6,

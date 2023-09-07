@@ -159,7 +159,7 @@ class HeaderTwo extends Component {
                                     </Grid>
                                     <Grid className="contact-text">
                                         <span>call us</span>
-                                        860 -272 -9738
+                                        <a href="tel:214-994-7628">214-994-7628</a>
                                     </Grid>
                                 </Grid>
                             </Grid>

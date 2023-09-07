@@ -10,8 +10,7 @@ class ContactInfo extends Component {
                     <Grid item lg={3} sm={6} className="">
                         <Grid className="single-contact-details">
                             <h3>Call Us</h3>
-                            <p>+1 999 999 999</p>
-                            <p>+1 999 999 999</p>
+                            <p><a href="tel:214-994-7628">214-994-7628</a></p>
                         </Grid>
                     </Grid>
                     <Grid item lg={3} sm={6} className="">

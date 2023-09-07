@@ -23,7 +23,9 @@ class Footer extends Component {
                                 </Grid>
                                 <Grid className="contact-content">
                                     <h4>Contacts</h4>
-                                    <p>Call Us : +123 456 789 Email Us At : hammer@gmailcom</p>
+                                    
+                                    <p>Call Us : <a href="tel:214-994-7628">214-994-7628</a></p>
+                                    <p> Email Us At : hammer@gmailcom</p>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -57,7 +59,7 @@ class Footer extends Component {
                     </Grid>
                 </section>
                 <footer className="footer-section pt-150 pb-30">
-                    <Grid container spacing={3} className="pb-80 websitePadding">
+                    {/* <Grid container spacing={3} className="pb-80 websitePadding">
                         <Grid item lg={3} sm={6} className="">
                             <Grid className="single-footer-widget">
                                 <h3>About Us</h3>
@@ -120,7 +122,7 @@ class Footer extends Component {
                                 </Grid>
                             </Grid>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                     <Grid className="footer-bootm pt-30">
                         <Grid container spacing={3} className="websitePadding">
                             <Grid item lg={6} sm={12} className="footer-text">
@@ -129,9 +131,9 @@ class Footer extends Component {
                             <Grid item lg={6} sm={12} className="text-lg-right text-center">
                                 <Grid className="footer-menu">
                                     <ul>
-                                        <li><a href="#">Disclaimer</a></li>
+                                        {/* <li><a href="#">Disclaimer</a></li>
                                         <li><a href="#">Privacy</a></li>
-                                        <li><a href="#">Advertisement</a></li>
+                                        <li><a href="#">Advertisement</a></li> */}
                                         <li><a href="#">Contact us</a></li>
                                     </ul>
                                 </Grid>

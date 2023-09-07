@@ -4,7 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderImage1 from '../../../images/slide/tile.jpg';
+import BeautifulKitchenHero from '../../../images/slide/HomeBuilding_Hero.jpg';
 import SliderManImage1 from '../../../images/man.png';
+import CustomBathroomsHero from '../../../images/slide/HomeBuilding_Hero.jpg';
 
 class HeroSlider extends Component {
     render() {
@@ -26,8 +28,8 @@ class HeroSlider extends Component {
                                 <Grid item lg={12} xs={12} md={12} className="customGridwidth">
                                     <span>sit amet</span>
                                     <h1>ORV Remodeling</h1>
-                                    <p>Discover the ORV Remodeling difference <br/>where remodeling goes beyond construction and becomes an art of transformation.<br/> Let's redefine your space together.</p>
-                                
+                                    {/* <p>Discover the ORV Remodeling difference <br/>where remodeling goes beyond construction and becomes an art of transformation.<br/> Let's redefine your space together.</p> */}
+                                <p>Where dreams meet design, and luxury finds its home. We are the premier high-end <br/> remodeling company, dedicated to creating opulent, personalized spaces that redefine elegance and comfort. Your vision, our expertise – an extraordinary partnership</p>
                                     {/* <a href="#" className="theme_btn get_start">Get details</a> */}
                                 </Grid>
                             </Grid>
@@ -40,13 +42,13 @@ class HeroSlider extends Component {
                 <section className="hero-slider-area">
                     <Grid className="hero-slides owl-carousel">
                         <Grid className="single-hero-slide gray-overlay bg-cover bg-top d-flex align-items-center"
-                              style={{backgroundImage: `url(${SliderImage1})`}}>
+                              style={{backgroundImage: `url(${BeautifulKitchenHero})`}}>
                             <Grid container spacing={3} className="sLider-grid-item websitePadding">
                                 <Grid item lg={12} className="text-center">
                                     <span>WE MAKE</span>
                                     <h1>Beautiful Kitchens</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                                        dicta<br/> sapiente, quo in minus nostrum praesentium quidem.</p>
+                                    <p>Indulge in the epitome of culinary luxury with our bespoke kitchen remodels. Impeccable craftsmanship, top-tier materials, and exquisite design come together to create a gourmet haven in your own home. Elevate your cooking experience with the elegance you deserve. 
+                                       </p>
                                     {/* <a href="#" className="theme_btn get_start">Get details</a> */}
                                 </Grid>
                             </Grid>
