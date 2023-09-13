@@ -7,7 +7,7 @@ import Decks from "../../../images/wedo/Decks_square.jpg";
 import Paint from "../../../images/wedo/exteriorPaint_square.jpg";
 import Grid from "@material-ui/core/Grid";
 import CustomBath from "../../../images/wedo/orlandoBathroom_square.jpg";
-
+import Drywall from "../../../images/wedo/Drywall_square.jpg";
 const ServiceItem = [
     {
         id: 1,
@@ -48,7 +48,7 @@ const ServiceItem = [
     {
         id: 6,
         title: 'Drywall',
-        image: ShowerFrame,
+        image: Drywall,
         description: 'Get the perfect walls for your space with our expert drywall installation. We make sure it\'s smooth and ready for your style'
     },
     {

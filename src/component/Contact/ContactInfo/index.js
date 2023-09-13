@@ -15,22 +15,22 @@ class ContactInfo extends Component {
                     </Grid>
                     <Grid item lg={3} sm={6} className="">
                         <Grid className="single-contact-details">
-                            <h3>Address</h3>
-                            <p>1234 Cool Street <br/>dallas texas</p>
+                            <h3>Service Area</h3>
+                            <p>We serve the entire Dallas-Fortworth Metroplex <br/>dallas texas</p>
                         </Grid>
                     </Grid>
-                    <Grid item lg={3} sm={6} className="">
+                    {/* <Grid item lg={3} sm={6} className="">
                         <Grid className="single-contact-details">
                             <h3>Skype id</h3>
                             <p>@userthemes</p>
                             <p>@monidatheme</p>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                     <Grid item lg={3} sm={6} className="">
                         <Grid className="single-contact-details">
                             <h3>Email</h3>
-                            <p>CHANGEME@CHANGEME.com</p>
-                            <p>CHANGEME@CHANGEME.com</p>
+                            <p><a href="mailto:orvremodeling@gmail.com?subject=New Quote">orvremodeling@gmail.com</a></p>
+                           
                         </Grid>
                     </Grid>
                 </Grid>

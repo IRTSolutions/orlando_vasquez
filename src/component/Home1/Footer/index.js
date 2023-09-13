@@ -25,7 +25,7 @@ class Footer extends Component {
                                     <h4>Contacts</h4>
                                     
                                     <p>Call Us : <a href="tel:214-994-7628">214-994-7628</a></p>
-                                    <p> Email Us At : hammer@gmailcom</p>
+                                    <p> Email Us : <a href="mailto:orvremodeling@gmail.com?subject=Request for Information">orvremodeling@gmail.com</a></p>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -35,8 +35,8 @@ class Footer extends Component {
                                     <img src={FooterHome} alt=""/>
                                 </Grid>
                                 <Grid className="contact-content">
-                                    <h4>Address</h4>
-                                    <p>Hemmer Builder, Downtown, Victoria, Australia</p>
+                                    <h4>Service Areas</h4>
+                                    <p>We serve the entire Dallas-Fortworth Metroplex </p>
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -46,11 +46,11 @@ class Footer extends Component {
                                     <img src={FooterLike} alt=""/>
                                 </Grid>
                                 <Grid className="contact-content">
-                                    <h4>Follow Us</h4>
+                                    <h4>Follow Us On  <a href="https://www.instagram.com/northernlight_remodeling/">Instagram</a></h4>
                                     <Grid className="follow-icons">
-                                        <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                        {/* <a href="#"><i className="fab fa-facebook-f"></i></a>
                                         <a href="#"><i className="fab fa-twitter"></i></a>
-                                        <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i className="fab fa-linkedin-in"></i></a> */}
                                         <a href="https://www.instagram.com/northernlight_remodeling/"><i className="fab fa-instagram"></i></a>
                                     </Grid>
                                 </Grid>

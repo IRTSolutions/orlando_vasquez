@@ -5,6 +5,7 @@ import Services from "./Services";
 import CallToAction from "../Home2/CallToAction";
 import OurService from "../Home1/OurService";
 import Testimonial from "../Home2/Testimonial";
+import ServicesHero from '../../images/ServicesHero.jpg';
 
 class OurServicePage extends Component{
     state ={
@@ -14,7 +15,7 @@ class OurServicePage extends Component{
         return(
             <div>
                 <Header/>
-                <HeroArea slug='WHO WE ARE' title='Our Services'/>
+                <HeroArea slug='' title='Our Services' imageurl={ServicesHero}/>
                 <Services/>
                 <CallToAction/>
                 <OurService/>

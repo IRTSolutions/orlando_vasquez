@@ -58,9 +58,9 @@ class SinglePost extends Component {
                                 <a href="#">News</a>
                             </Grid>
                             <Grid item sm={6} xs={12} className="share-post text-lg-right">
-                                <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                {/* <a href="#"><i className="fab fa-facebook-f"></i></a>
                                 <a href="#"><i className="fab fa-twitter"></i></a>
-                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i className="fab fa-linkedin-in"></i></a> */}
                                 <a href="https://www.instagram.com/northernlight_remodeling/"><i className="fab fa-instagram"></i></a>
                             </Grid>
                         </Grid>

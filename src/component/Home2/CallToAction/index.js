@@ -23,7 +23,7 @@ class CallToAction extends Component {
         const body = this.state.callbackMessage;
         const name = this.state.name;
         const phoneNumber = this.state.phoneNumber
-        window.location = `mailto:yourmail@domain.com?subject=${subject}for ${name}&body=${body} please contact me at ${phoneNumber}`;
+        window.location = `mailto:Orvremodeling@gmail.com<?subject=${subject}for ${name}&body=${body} please contact me at ${phoneNumber}`;
 
         this.setState({
             hideform: true

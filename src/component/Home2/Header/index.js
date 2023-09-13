@@ -149,8 +149,8 @@ class HeaderTwo extends Component {
                                         <i className="fal fa-map-marker-alt"></i>
                                     </Grid>
                                     <Grid className="contact-text">
-                                        <span>Address</span>
-                                        4249 Hart Street Enfield, CT 06082
+                                        <span>Service Areas</span>
+                                        We serve the entire Dallas-Fortworth Metroplex 
                                     </Grid>
                                 </Grid>
                                 <Grid item md={3} className="single-contact-info">

@@ -86,8 +86,10 @@ class Header extends Component {
                             <Link to="/" className="navbar-brand logo">
                                 <img src={HeaderLogo} alt=""/>
                             </Link>
+                            
                         </Grid>
                         <Grid item lg={10} sm={9} xs={12} justify="flex-end" alignItems="center" className="text-lg-right">
+                            
                             <Nav/>
                         </Grid>
                     </Grid>

@@ -2300,7 +2300,7 @@ a.play_video_btn i {
     content: "";
     left: 0;
     top: 0;
-    opacity: .7;
+    opacity: .3;
     z-index: -1;
 }
 
