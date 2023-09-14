@@ -62,7 +62,7 @@ class Header extends Component {
         return (
             <Grid className="header-one">
                 <Grid className="top-header pl-75 pr-75 d-none d-md-block">
-                    <Grid container spacing={3} alignItems="center">
+                    <Grid container spacing={3} align-items="center">
                         <Grid item lg={8} md={9} xs={12} className="top-bar-left">
                             <span><i className="fas fa-phone"></i> +999 999 999</span>
                             <span><i className="fas fa-phone"></i> CHANGEME@gmailcom</span>
@@ -82,13 +82,13 @@ class Header extends Component {
                 </Grid>
                 <Grid className="main-menu pl-75 pr-75 pt-30 pb-30" id="sticky-nav">
                     <Grid container spacing={3}>
-                        <Grid item lg={2} sm={3} xs={12} justify="space-between" alignItems="center">
+                        <Grid item lg={2} sm={3} xs={12} justifyContent="space-between" align-items="center">
                             <Link to="/" className="navbar-brand logo">
                                 <img src={HeaderLogo} alt=""/>
                             </Link>
                             
                         </Grid>
-                        <Grid item lg={10} sm={9} xs={12} justify="flex-end" alignItems="center" className="text-lg-right">
+                        <Grid item lg={10} sm={9} xs={12} justifyContent="flex-end" align-items="center" className="text-lg-right">
                             
                             <Nav/>
                         </Grid>

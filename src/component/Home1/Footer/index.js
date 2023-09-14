@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import FooterCall from '../../../images/call.png';
 import FooterHome from '../../../images/home.png';
 import FooterLike from '../../../images/like.png';
@@ -19,11 +19,11 @@ class Footer extends Component {
                         <Grid item lg={4} sm={4} xs={12} className="">
                             <Grid className="single-contact-info">
                                 <Grid className="contact-icon">
-                                    <img src={FooterCall} alt=""/>
+                                    <img src={FooterCall} alt="" />
                                 </Grid>
                                 <Grid className="contact-content">
                                     <h4>Contacts</h4>
-                                    
+
                                     <p>Call Us : <a href="tel:214-994-7628">214-994-7628</a></p>
                                     <p> Email Us : <a href="mailto:orvremodeling@gmail.com?subject=Request for Information">orvremodeling@gmail.com</a></p>
                                 </Grid>
@@ -32,7 +32,7 @@ class Footer extends Component {
                         <Grid item lg={4} sm={4} xs={12} className="">
                             <Grid className="single-contact-info">
                                 <Grid className="contact-icon">
-                                    <img src={FooterHome} alt=""/>
+                                    <img src={FooterHome} alt="" />
                                 </Grid>
                                 <Grid className="contact-content">
                                     <h4>Service Areas</h4>
@@ -43,7 +43,7 @@ class Footer extends Component {
                         <Grid item lg={4} sm={4} xs={12} className="">
                             <Grid className="single-contact-info">
                                 <Grid className="contact-icon">
-                                    <img src={FooterLike} alt=""/>
+                                    <img src={FooterLike} alt="" />
                                 </Grid>
                                 <Grid className="contact-content">
                                     <h4>Follow Us On  <a href="https://www.instagram.com/northernlight_remodeling/">Instagram</a></h4>
@@ -126,7 +126,7 @@ class Footer extends Component {
                     <Grid className="footer-bootm pt-30">
                         <Grid container spacing={3} className="websitePadding">
                             <Grid item lg={6} sm={12} className="footer-text">
-                                    <span>Copyright ©IRT Solutions, LLC. All Rights Reserved</span>
+                                <span>Copyright ©IRT Solutions, LLC. All Rights Reserved</span>
                             </Grid>
                             <Grid item lg={6} sm={12} className="text-lg-right text-center">
                                 <Grid className="footer-menu">
@@ -134,7 +134,9 @@ class Footer extends Component {
                                         {/* <li><a href="#">Disclaimer</a></li>
                                         <li><a href="#">Privacy</a></li>
                                         <li><a href="#">Advertisement</a></li> */}
-                                        <li><a href="#">Contact us</a></li>
+                                        <li> <Link id="contactForm" to="/contact">Contact us now</Link></li>
+
+
                                     </ul>
                                 </Grid>
                             </Grid>

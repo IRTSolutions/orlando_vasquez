@@ -23,7 +23,7 @@ class CallToAction extends Component {
         const body = this.state.callbackMessage;
         const name = this.state.name;
         const phoneNumber = this.state.phoneNumber
-        window.location = `mailto:Orvremodeling@gmail.com<?subject=${subject}for ${name}&body=${body} please contact me at ${phoneNumber}`;
+        window.location = `mailto:orvremodeling@gmail.com<?subject=${subject}for ${name}&body=${body} please contact me at ${phoneNumber}`;
 
         this.setState({
             hideform: true
@@ -41,7 +41,7 @@ class CallToAction extends Component {
 
     setPhone = (event) => {
         this.setState({
-            phoneNumber: event.target.value
+            phoneNumber: this.getFormattedPhoneNum(event.target.value)
         });
 
     }
@@ -56,6 +56,15 @@ class CallToAction extends Component {
     openModal() {
         this.setState({ isOpen: true })
     }
+
+    getFormattedPhoneNum = ( phoneNumberString ) => {
+        var cleaned = ('' + phoneNumberString).replace(/\D/g, '');
+        var match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
+        if (match) {
+          return `${match[1]}-${match[2]}-${match[3]}`;
+        }
+        return null;
+       } 
 
     render() {
         return (
@@ -89,8 +98,8 @@ class CallToAction extends Component {
                         </Grid>
                     </Grid>
                     <Grid item md={1}></Grid>
-                    <Grid item md={5} sm={12} alignItems="center" className="">
-                        {/* <Grid justify="center" className="call-to-video d-flex align-items-center justify-content-center"
+                    <Grid item md={5} sm={12} align-items="center" className="">
+                        {/* <Grid justifyContent="center" className="call-to-video d-flex align-items-center justify-content-center"
                               style={{backgroundImage: `url(${VedioImage})`}}>
                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='_TI26foIVy0'
                                         onClose={() => this.setState({isOpen: false})}/>

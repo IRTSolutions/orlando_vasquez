@@ -107,7 +107,7 @@ class HeaderTwo extends Component {
         return (
             <header className="header-two">
                 <Grid className="top-bar-two">
-                    <Grid container justify="space-between" spacing={3} className="container websitePadding">
+                    <Grid container justifyContent="space-between" spacing={3} className="container websitePadding">
                         <Grid item lg={6} md={5} className="">
                             <Grid className="top-right-info">
                                 Have any question?<span>Call Us Now!!</span>
@@ -134,7 +134,7 @@ class HeaderTwo extends Component {
                             </Grid>
                         </Grid>
                         <Grid item lg={9} md={12} className="d-none d-lg-block">
-                            <Grid container spacing={3} justify="space-between" className="header-contact-promo row">
+                            <Grid container spacing={3} justifyContent="space-between" className="header-contact-promo row">
                                 <Grid item md={4} className="single-contact-info">
                                     <Grid className="contact-top-icon">
                                         <i className="fal fa-alarm-clock"></i>

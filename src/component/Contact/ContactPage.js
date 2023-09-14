@@ -13,6 +13,7 @@ class ContactPage extends Component{
                 <Header/>
                 <HeroArea slug='Call Text Or Email' title='Contact Us' imageurl={ContactUsHero}/>
                 <ContactInfo/>
+
                 <ContactMap/>
                 <ContactForm/>
             </div>
